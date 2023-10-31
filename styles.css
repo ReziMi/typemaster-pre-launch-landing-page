@@ -1,0 +1,505 @@
+@import url('https://fonts.googleapis.com/css2?family=Barlow:wght@500;700;900&display=swap');
+
+*{
+    box-sizing: border-box;
+    margin: 0;
+    padding: 0;
+}
+
+body{
+    background: #FFF;
+    min-height: 100vh;
+    height: auto;
+    font-family: "Barlow", sans-serif;
+    overflow-x: hidden;
+    width: 100%
+    height: auto;
+
+}
+
+.headerContainer{
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    margin: 23px 24px 64px;
+}
+
+.logo{
+    /* margin-top: 27px;
+    margin-left: 24px; */
+    width: 40px;
+    height: 40px;
+}
+
+.pre-order{
+    width: 150px;
+    height: 48px;
+    border-radius: 8px;
+    background: #E8EFF2;
+    color: #162542;
+    font-family: Barlow;
+    font-size: 16px;
+    font-weight: 700;
+    line-height: 26px;
+    text-transform: uppercase;
+    border: none;
+}
+
+.headerSection{
+    display: flex;
+    flex-direction: column;
+    margin-bottom: 24px;
+}
+
+.special-div {
+    display: none;
+  }
+
+h1{
+    color: #162542;
+    font-family: Barlow;
+    font-size: 48px;
+    font-weight: 900;
+    line-height: 48px;
+    text-transform: uppercase;
+    margin-left: 24px;
+    width: 327px;
+}
+
+.headerP{
+    color: #7B8BAD;
+    font-family: Barlow;
+    font-size: 16px;
+    font-weight: 500;
+    line-height: 26px;
+    margin: 32px 24px 32px;
+    width: 327px;
+}
+
+.pre-order2{
+    width: 150px;
+    height: 48px;
+    border: none;
+    border-radius: 8px;
+    background: #F16718;
+    margin: 0px 32px 24.4px 24px;
+    color: #FFF;
+    font-family: Barlow;
+    font-size: 16px;
+    font-weight: 700;
+    line-height: 26px;
+    text-transform: uppercase;
+}
+
+.release{
+    display: inline;
+    color: #7B8BAD;
+    font-family: Barlow;
+    font-size: 16px;
+    font-weight: 700;
+    line-height: 26px;
+    text-transform: uppercase;
+}
+
+.keyboardOne{
+    margin-top: 40px;
+    margin-left: 24px;
+    width: 366px;
+    border-top-left-radius: 8px;
+    border-bottom-left-radius: 8px;
+    overflow: hidden;
+    max-width: 100%;
+}
+
+.image-container {
+    position: relative;
+    display: inline-block;
+  }
+  
+  .keyboardTwo {
+    display: block; 
+    width: 129px;
+    border-top-right-radius: 8px;
+    border-bottom-right-radius: 8px;
+  }
+  
+  .overlay {
+    position: absolute;
+    top: 0;
+    right: 0;
+    bottom: 0;
+    left: 0;
+    background-color: rgba(241, 103, 24, 0.5);
+    #F16718
+    z-index: 1;
+    border-top-right-radius: 8px;
+    border-bottom-right-radius: 8px;
+  }
+
+
+.keyboardThree{
+    margin-left: 16px;
+    width: 220px;
+    border-radius: 10px;
+}
+
+.midTexts{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    margin-top: 60px;
+}
+
+h2{
+    width: 255px;
+    color: #162542;
+    text-align: center;
+    font-family: Barlow;
+    font-size: 32px;
+    font-weight: 900;
+    line-height: 36px; /* 112.5% */
+    text-transform: uppercase;
+}
+
+.middleP{
+    color: #7B8BAD;
+    text-align: center;
+    font-family: Barlow;
+    font-size: 16px;
+    font-weight: 500;
+    line-height: 26px;
+    width: 327px;
+    padding-top: 24px;
+}
+
+.productAdvantages{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    margin-left: 24px;
+    margin-top: 47px;
+}
+
+.compatible,
+.wireless,
+.battery,
+.backlit{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+
+.icon {
+    position: relative;
+    width: 65px;
+    height: 65px;
+    margin-top: 64px;
+  }
+  
+  .patternSquare {
+    width: 100%;
+    height: 100%;
+    background-color: #F16718;
+    position: absolute;
+    top: 0;
+    left: 0;
+    z-index: 1; /* Place it below the SVG */
+    border-radius: 8px;
+  }
+  
+  .svg-on-top {
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+    z-index: 2;
+    object-fit: scale-down;
+  }
+
+  h3{
+    color: #162542;
+    text-align: center;
+    font-family: Barlow;
+    font-size: 24px;
+    font-weight: 900;
+    line-height: 28px; /* 116.667% */
+    text-transform: uppercase;
+    width: 327px;
+    margin: 48px 24px 24px;
+  }
+
+.compatible,
+.wireless,
+.battery,
+.backlit p{
+    color: #7B8BAD;
+    text-align: center;
+    font-family: Barlow;
+    font-size: 16px;
+    font-style: normal;
+    font-weight: 500;
+    line-height: 26px; /* 162.5% */
+    width: 327px;
+}
+  
+
+.footerText{
+    margin: 96px 51px 50px;
+    color: #7B8BAD;
+    font-family: Barlow;
+    font-size: 16px;
+    font-weight: 700;
+    line-height: 26px; /* 162.5% */
+}
+
+span{
+    font-weight: 500;
+}
+
+
+@media (min-width: 768px){
+    .headerContainer{
+        margin: 40px 39px 122px;
+    }
+
+    .headerSection{
+        flex-direction: row;
+        align-items: center;
+
+    }
+
+    h1{
+        margin-left: 39px;
+        width: 339px;
+    }
+    
+    .headerP{
+        color: #7B8BAD;
+        font-family: Barlow;
+        font-size: 16px;
+        font-weight: 500;
+        line-height: 26px;
+        margin: 34px 39px 39px;
+        width: 327px;
+    }
+
+    .keyboardOne{
+        /* margin-top: 40px; */
+        margin-left: 0px;
+        margin-top: -20px;
+        height: 425px;
+        border-top-left-radius: 8px;
+        border-bottom-left-radius: 8px; */
+        overflow-y: hidden;
+        max-width: auto;
+    }
+
+    .pre-order2{
+        width: 175px;
+        height: 58px;
+        margin: 0px 37px 24.4px 39px;
+        color: #FFF;
+        font-family: Barlow;
+        font-size: 16px;
+        font-weight: 700;
+        line-height: 26px;
+        text-transform: uppercase;
+    }
+
+    .image-container{
+        margin-left: 24px;
+        margin-top: 30px;
+        border-radius: 15px;
+    }
+
+    .keyboardTwo{
+        width: 214px;
+        border-radius: 15px;
+    }
+    .overlay{
+        border-radius: 15px;
+    }
+
+    .keyboardThree{
+        width: 445px;
+        height: 320px;
+        border-radius: 17px;
+        margin-left: 25px;
+    }
+
+    .midTexts{
+        flex-direction: row;
+        justify-content: space-between;
+        margin-left: 39px;
+        margin-right: 39px;
+        max-width: fit-content;
+    }
+
+    .middleP{
+        width: 398px;
+        padding: 0;
+        text-align: left;
+    }
+
+    h2{
+        text-align: left;
+        width: 255px;
+    }
+
+    .productAdvantages {
+        display: grid;
+        grid-template-columns: repeat(2, 1fr); /* 2 columns of equal width */
+        grid-gap: 16px; /* Adjust the gap between items as needed */
+        margin-top: 142px;
+      }
+    
+      .compatible,
+      .wireless,
+      .battery,
+      .backlit{
+          align-items: baseline
+      }
+
+      h3{
+        text-align: left;
+        width: 339px;
+        margin: 48px 24px 24px;
+      }
+    
+    .compatible,
+    .wireless,
+    .battery,
+    .backlit p{
+
+        text-align: left;
+        width: 281px;
+    }
+
+    .footerText{
+        margin-left: 247px;
+        margin-right: auto;
+    }
+}
+
+
+
+@media (min-width: 1440px){
+    .headerContainer{
+        margin: 55px 165px 99px;
+    }
+
+    h1{
+        margin-left: 165px;
+        width: 445px;
+        font-size: 56px;
+        line-height: 56px; 
+    }
+    
+    .headerP{
+        font-size: 18px;
+        margin: 24px 165px 40px;
+        width: 445px;
+    }
+
+    .keyboardOne{
+        /* margin-top: 40px; */
+        margin-left: 0px;
+        margin-top: -20px;
+        height: 480px;
+        width: 540px;
+        border-radius: 12px;
+    }
+
+    .special-div {
+        display: block;
+        width: 255px;
+        height: 240px;
+        background-color: #E8EFF2;
+        margin-left: 24px;
+        border-radius: 11PX;
+        align-self: baseline;
+        margin-top: -20px;
+      }
+
+    .pre-order2{
+        width: 175px;
+        height: 58px;
+        margin: 0px 37px 100px 165px;
+    }
+
+    .pre-order:hover{
+        background: #162542;
+        color: #FFF;
+    }
+
+    .pre-order2:hover{
+        background: #FF9B62;
+        color: #FFF;
+    }
+
+    .image-container{
+        margin-left: 160px;
+        margin-top: 30px;
+        border-radius: 15px;
+    }
+
+    .keyboardTwo{
+        width: 354px;
+        height: 554px;
+        border-radius: 15px;
+    }
+    .overlay{
+        border-radius: 15px;
+    }
+
+    .keyboardThree{
+        width: 445px;
+        height: 540px;
+        border-radius: 17px;
+        margin-left: 25px;
+    }
+
+    .midContainer{
+        display: flex;
+        align-items: center;
+        margin: 0px;
+        padding: 0px;
+    }
+
+    .midTexts{
+        flex-direction: column;
+        gap: 27px;
+        align-items: baseline;
+        margin-right: 165px;
+        margin-left: 150px;
+        max-width: fit-content;
+    }
+
+    .middleP{
+        width: 255px;;
+    }
+
+
+    .productAdvantages {
+        grid-template-columns: repeat(4, 1fr); /* 2 columns of equal width */
+        margin: 220px 165px 128px;
+      }
+    
+
+      h3{
+        width: 255px;
+      }
+    
+    .compatible,
+    .wireless,
+    .battery,
+    .backlit p{
+        width: 255px;
+    }
+
+    .footerText{
+        margin-left: 568px;
+        margin-right: auto;
+        margin-bottom: 58px;
+    }
+}
